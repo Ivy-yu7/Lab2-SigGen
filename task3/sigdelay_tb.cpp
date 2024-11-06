@@ -31,7 +31,7 @@ int main(int argc, char **argv, char **env) {
   top->wr = 1;
   top->rd = 1;
   top->offset = 64;
-  
+  top->en = 1;
   // intialize variables for analogue output
   vbdInitMicIn(RAM_SZ);
 
